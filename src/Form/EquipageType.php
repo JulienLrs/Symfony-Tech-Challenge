@@ -17,9 +17,9 @@ class EquipageType extends AbstractType
             ->add('name', TextType::class, [
                 'attr' => ['placeholder' => 'Ajouter un nom'],
             ])
-            ->add('description', TextType::class, [
-                'attr' => ['placeholder' => 'Adjectif', 'required' => false],
-            ])
+            // ->add('description', TextType::class, [
+            //      'attr' => ['placeholder' => 'Adjectif', 'required' => false],
+            //])
             // ->add('imageName')
         ;
     }
